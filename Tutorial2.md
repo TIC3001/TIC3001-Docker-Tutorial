@@ -222,11 +222,11 @@ CMD ["node", "app.js"]
   - Example: `docker volume create my_volume`
   - Explanation: Creates a new volume named my_volume.
 
-## Node.js Application
+## Writing a Dockerfile for a Node.js Application
 
 ### Getting Ready
 
-- Download or Clone the source code from [GitHub](https://github.com/Jai2501/Tutorial2)
+- Download or Clone the source code from [GitHub](https://github.com/TIC3001/Tutorial2)
 - Open a command line/terminal window and navigate into the source code folder (`Tutorial2/demo-app`).
 
 ### The Dockerfile
@@ -370,7 +370,7 @@ Windows Powershell users:
 docker run --name my-app -p 3000:3000 -v ${PWD}:/app -d tic3001-demo-app
 ```
 
-- The flag `-v` allows to mount the Current Working Directory as a volunme in the Docker Container.
+- The flag `-v` allows to mount the Current Working Directory as a volume in the Docker Container.
 
 2. Go to `src/App.js` and add the following code inside the `function App()`:
 
@@ -570,7 +570,7 @@ networks:
   - Example: `docker-compose rm -f`
   - Explanation: Force removes all stopped containers defined in the docker-compose.yml file.
 
-## Node.js Application
+## Writing a Docker Compose File for a Node.js Application
 
 ### Building the Images
 
