@@ -636,11 +636,14 @@ You may learn more about the following with plenty of resources available all ov
 - Resource Management
 - Security Practices
 
+
+## Use of AI Acknowledgement
+Parts of this guide were generated with the help of ChatGPT and reviewed before being added to this guide.  
+
 ## References
 
 - [Docker Docs](https://docs.docker.com/)
 - [Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 - [React](https://react.dev/learn)
-- [ChatGPT](https://chat.openai.com/)
 - [Stackoverflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
